@@ -1,5 +1,5 @@
 import React from "react";
-import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
+import { FaGithub, FaTwitter, FaLinkedinIn } from "react-icons/fa";
 import { logo } from "../../assets/index";
 
 const FooterBottom = () => {
@@ -35,15 +35,33 @@ const FooterBottom = () => {
             </div>
 
             <div className="flex gap-4">
+            <a
+              href="https://www.linkedin.com/in/sahil-saspara-64632718b/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <span className="bannerIcon">
-                <FaFacebookF />
-              </span>
+              <FaLinkedinIn />
+            </span>
+            </a>
+            <a
+              href="https://github.com/Roy543"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <span className="bannerIcon">
-                <FaTwitter />
-              </span>
+              <FaGithub />
+            </span>
+            </a>
+            <a
+              href="https://twitter.com/SahilRoy_543"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <span className="bannerIcon">
-                <FaLinkedinIn />
-              </span>
+              <FaTwitter />
+            </span>
+            </a>
             </div>
           </div>
         </div>
