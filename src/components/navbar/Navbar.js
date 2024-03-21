@@ -5,10 +5,11 @@ import { MdClose } from "react-icons/md";
 import { FaGithub, FaTwitter, FaLinkedinIn } from "react-icons/fa";
 import { logo } from "../../assets/index";
 import { navLinksdata } from "../../constants/index.js";
-
+import resume from './SahilSasparaCV.pdf';
 
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
+  
   return (
     <div className="w-full h-24 sticky top-0 z-50 bg-bodyColor mx-auto flex justify-between items-center font-titleFont border-b-[1px] border-b-gray-600">
       <div className="flex">
@@ -39,13 +40,12 @@ const Navbar = () => {
         </ul>
         <div className="flex">
           <div className="flex">
-            <a
-              href="./SahilSasparaCV.pdf"
-              download="SahilSasparaCV.pdf"
-              className="flex items-center justify-center md:w-40 md:h-12 md:font-normal md:text-base w-24 h-10 text-xs bg-designColor mx-6 text-white rounded-xl"
-            >
+            <a href={resume} target="_blank" rel="noreferrer">
+            <button className="flex items-center justify-center md:w-40 md:h-12 md:font-normal md:text-base w-24 h-10 text-xs bg-designColor mx-6 text-white rounded-xl">
               Download CV
+            </button>
             </a>
+            
           </div>
           <span
             onClick={() => setShowMenu(!showMenu)}
