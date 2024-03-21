@@ -5,8 +5,8 @@ import {logo} from "../../assets/index"
 const Footer = () => {
   return (
     <div className="w-full py-20 h-auto border-b-[1px] border-b-black grid grid-cols-1 md:grid-cols-2 lgl:grid-cols-4 gap-8">
-      <div className="w-full h-full flex flex-col gap-8">
-        <img className="w-32" src={logo} alt="logo" />
+      <div className="w-full h-full items-center flex flex-col gap-8">
+        <img className="w-32 rounded-full" src={logo} alt="logo" />
         <div className="flex gap-4">
           <span className="bannerIcon">
             <FaFacebookF />
@@ -19,7 +19,7 @@ const Footer = () => {
           </span>
         </div>
       </div>
-      <div className="w-full h-full">
+      <div className="w-full h-full flex flex-col items-center">
         <h3 className="text-xl uppercase text-designColor tracking-wider">
           Quick Link
         </h3>

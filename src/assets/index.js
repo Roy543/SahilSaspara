@@ -1,8 +1,10 @@
-import logo from "./images/logo.png";
-import bannerImg from "./images/bannerImg.png";
-import projectOne from "./images/projects/projectOne.jpg";
-import projectTwo from "./images/projects/projectTwo.jpg";
-import projectThree from "./images/projects/projectThree.jpeg";
+import logo from "../assets/images/contact/Sahil-Saspara.png";
+import bannerImg from "./images/Sahil.png";
+import brainwave from "./images/projects/brainwave.png";
+import nike from "./images/projects/nike.png";
+import supernotes from "./images/projects/supernotes.png";
+import college from "./images/projects/college.png";
+import house from "./images/projects/house.png";
 import testimonialOne from "./images/testmonial/testimonialOne.png";
 import testimonialTwo from "./images/testmonial/testimonialTwo.png";
 import quote from "./images/testmonial/quote.png";
@@ -11,9 +13,11 @@ import contactImg from "./images/contact/contactImg.png";
 export {
   logo,
   bannerImg,
-  projectOne,
-  projectTwo,
-  projectThree,
+  brainwave,
+  nike,
+  supernotes,
+  college,
+  house,
   testimonialOne,
   testimonialTwo,
   quote,

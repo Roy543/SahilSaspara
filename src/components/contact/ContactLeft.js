@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
+import { FaTwitter, FaLinkedinIn, FaGithub } from "react-icons/fa";
 import { contactImg } from "../../assets/index";
 
 const ContactLeft = () => {
@@ -10,34 +10,51 @@ const ContactLeft = () => {
         src={contactImg}
         alt="contactImg"
       />
-      <div className="flex flex-col gap-4">
-        <h3 className="text-3xl font-bold text-white">John Doe</h3>
+      <div className="flex flex-col items-center gap-4">
+        <h3 className="text-3xl font-bold text-white">Sahil Saspara</h3>
         <p className="text-lg font-normal text-gray-400">
           MERN Stack Developer
         </p>
-        <p className="text-base text-gray-400 tracking-wide">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis
-          ipsam autem cumque, accusantium dicta odio.
+        <p className="text-base text-gray-400 flex items-center gap-2">
+          Phone: <span className="text-lightText">+49 17658681229</span>
         </p>
         <p className="text-base text-gray-400 flex items-center gap-2">
-          Phone: <span className="text-lightText">+968 97859628</span>
+          WhatsApp: <span className="text-lightText">+91 9879833433</span>
         </p>
         <p className="text-base text-gray-400 flex items-center gap-2">
-          Email: <span className="text-lightText">noor.jsdivs@gmail.com</span>
+          Email: <span className="text-lightText">sahilsaspara2021@gmail.com</span>
         </p>
       </div>
-      <div className="flex flex-col gap-4">
+      <div className="flex flex-col items-center gap-4">
         <h2 className="text-base uppercase font-titleFont mb-4">Find me in</h2>
         <div className="flex gap-4">
-          <span className="bannerIcon">
-            <FaFacebookF />
-          </span>
-          <span className="bannerIcon">
-            <FaTwitter />
-          </span>
-          <span className="bannerIcon">
-            <FaLinkedinIn />
-          </span>
+        <a
+              href="https://www.linkedin.com/in/sahil-saspara-64632718b/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span className="bannerIcon">
+              <FaLinkedinIn />
+            </span>
+            </a>
+            <a
+              href="https://github.com/Roy543"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span className="bannerIcon">
+              <FaGithub />
+            </span>
+            </a>
+            <a
+              href="https://twitter.com/SahilRoy_543"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span className="bannerIcon">
+              <FaTwitter />
+            </span>
+            </a>
         </div>
       </div>
     </div>

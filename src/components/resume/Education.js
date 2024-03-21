@@ -12,27 +12,21 @@ const Education = () => {
       {/* part one */}
       <div>
         <div className="py-6 lgl:py-12 font-titleFont flex flex-col gap-4">
-          <p className="text-sm text-designColor tracking-[4px]">1998 - 2010</p>
+          <p className="text-sm text-designColor tracking-[4px]">2016 - 2023</p>
           <h2 className="text-3xl md:text-4xl font-bold">Education Quality</h2>
         </div>
-        <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
+        <div className="mt-6 lgl:mt-14 w-full h-[1000px] flex flex-col gap-10">
           <ResumeCard
-            title="BSc in Computer Science"
-            subTitle="University of DVI (2006 - 2010)"
-            result="3.90/4"
-            des="The training provided by universities in order to prepare people to work in various sectors of the economy or areas of culture."
+            title="MSc in Applied Computer Science"
+            subTitle="SRH Hochschule Heidelberg, Germany (2021 - 2023)"
+            result="2.0"
+            des="Successfully completed Master's degree in Applied Computer Science from SRH Heidelberg, equipped with advanced knowledge and skills ready to tackle real-world challenges in Web development."
           />
           <ResumeCard
-            title="AS - Science & Information"
-            subTitle="SuperKing College (2001 - 2005)"
-            result="4.75/5"
-            des="Higher education is tertiary education leading to award of an academic degree. Higher education, also called post-secondary education."
-          />
-          <ResumeCard
-            title="Secondary School Education"
-            subTitle="Kingstar Secondary School (1998 - 2000)"
-            result="5.00/5"
-            des="Secondary education or post-primary education covers two phases on the International Standard Classification of Education scale."
+            title="B.Tech in Computer Science & Engineering"
+            subTitle="Parul University (2016 - 2020)"
+            result="2.3"
+            des="Completed Bachelor's degree in Computer Science & Engineering from Parul University, laying a solid foundation of expertise and understanding, poised to excel in FullStach Development endeavors."
           />
         </div>
       </div>
@@ -40,27 +34,27 @@ const Education = () => {
 
       <div>
         <div className="py-6 lgl:py-12 font-titleFont flex flex-col gap-4">
-          <p className="text-sm text-designColor tracking-[4px]">2010 - 2022</p>
+          <p className="text-sm text-designColor tracking-[4px]">2020 - Current</p>
           <h2 className="text-3xl md:text-4xl font-bold">Job Experience</h2>
         </div>
-        <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
+        <div className="mt-6 lgl:mt-14 w-full h-[1000px] flex flex-col gap-10">
           <ResumeCard
-            title="Sr. Software Engineer"
-            subTitle="Google Out Tech - (2017 - Present)"
-            result="USA"
-            des="Google's hiring process is an important part of our culture. Googlers care deeply about their teams and the people who make them up."
+            title="Junior FullStack Developer"
+            subTitle="BNN - (2023 - 2024)"
+            result="Germany"
+            des="Junior Full-Stack Developer at Badische Neueste Nachrichten, Karlsruhe, Germany, proficient in ReactJS for dynamic rendering, Docker for deployment consistency, and HTML/CSS/JavaScript for responsive interfaces. Experienced in SCSS for effective styling, Bitbucket for version control, and Jira/Confluence for project management."
           />
           <ResumeCard
-            title="Web Developer & Trainer"
-            subTitle="Apple Developer Team - (2012 - 2016)"
-            result="MALAYSIA"
-            des="A popular destination with a growing number of highly qualified homegrown graduates, it's true that securing a role in Malaysia isn't easy."
+            title="Working Student"
+            subTitle="SAP SE - (2022 - 2023)"
+            result="Germany"
+            des="At SAP SE, as a Working Student, helped build a secure system with NodeJS, VueJS/ReactJS frontend, and SAP Analytics Cloud integration. Ensured robust security with ExpressJS, MongoDB, and rigorous Postman testing."
           />
           <ResumeCard
-            title="Front-end Developer"
-            subTitle="Nike - (2020 - 2011)"
-            result="Oman"
-            des="The Oman economy has grown strongly over recent years, having transformed itself from a producer and innovation-based economy."
+            title="Internship"
+            subTitle="Baruzo Tech PVT LTD - (2020 - 2021)"
+            result="India"
+            des="At BaruzoTech Pvt. Ltd., successfully developed and deployed Node.js applications with Express.js, gained AWS deployment experience, and optimized performance, scalability, and security using Node.js, React.js, and AWS best practices during internship."
           />
         </div>
       </div>
