@@ -6,7 +6,8 @@ import {
   nike,
   supernotes,
   college,
-  tic
+  tic,
+  invest
 } from "../../assets/index";
 import ProjectsCard from "./ProjectsCard";
 
@@ -92,6 +93,13 @@ const Projects = () => {
           src={tic}
           github="https://github.com/Roy543/Tic-Tac-Toe/tree/main"
           live="https://tic-tac-toe-beta-steel.vercel.app/"
+        />
+        <ProjectsCard
+          title="Investment Calculator"
+          des={<p>Dive into financial planning with ease using this <span className="text-designColor font-bold">React-powered</span> Investment Calculator, meticulously crafted with <span className="text-designColor font-bold">JavaScript, HTML,</span> and <span className="text-designColor font-bold">CSS</span>. Seamlessly calculate potential returns on investments with intuitive input fields and responsive design. Harnessing the power of <span className="text-designColor font-bold">React's</span> component-based architecture, this calculator offers a user-friendly experience, ensuring efficient development and easy maintenance.</p>}
+          src={invest}
+          github="https://github.com/Roy543/investment-calculator"
+          live="https://investment-calculator-pi.vercel.app/"
         />
       </div>
     </section>
