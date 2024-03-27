@@ -6,6 +6,7 @@ import {
   nike,
   supernotes,
   college,
+  tic
 } from "../../assets/index";
 import ProjectsCard from "./ProjectsCard";
 
@@ -84,6 +85,13 @@ const Projects = () => {
           src={supernotes}
           github="https://github.com/Roy543/SuperNotes"
           live="https://supernote.onrender.com/login"
+        />
+        <ProjectsCard
+          title="Tic-Tac-Toe Game"
+          des={<p>Experience the timeless game of Tic-Tac-Toe revamped with <span className="text-designColor font-bold">ReactJS, HTML, CSS,</span> and <span className="text-designColor font-bold">JavaScript</span>. Play against a friend, responsive web interface. Enjoy intuitive controls and clear visuals, all powered by <span className="text-designColor font-bold">React's</span> component-based architecture for efficient development and maintenance.</p>}
+          src={tic}
+          github="https://github.com/Roy543/Tic-Tac-Toe/tree/main"
+          live="https://tic-tac-toe-beta-steel.vercel.app/"
         />
       </div>
     </section>
